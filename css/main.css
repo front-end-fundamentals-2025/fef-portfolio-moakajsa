@@ -1,8 +1,5 @@
 * {
   font-family: "Roboto Condensed", serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
 }
 
 /* HEADER */
@@ -12,9 +9,10 @@ body {
 }
 
 #logo {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 2.5rem;
   padding-left: 10px;
+  font-style: large;
 }
 
 menu {
@@ -22,6 +20,8 @@ menu {
 }
 
 ul {
+  font-weight: 300;
+  font-size: large;
   list-style: none;
   padding: 0;
 }
@@ -36,8 +36,36 @@ a {
 
 /* MAIN */
 
+/* MAIN SECTION */
+
+.section-main{
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+.text-main{
+  width: 80%;
+  float: inline-start;
+}
+
+.profile-img {
+max-width: 20%;
+float: inline-end;
+}
+
 /* FOOTER */
 
+.icons{
+  width: 2%;
+  padding: 10px;
+  float: inline-end;
+}
+
+.copyright{
+float: inline-start;
+}
+
 footer {
-  padding-left: 10px;
+  margin-top: 500px;
+  border-top: 1px solid black;
 }
