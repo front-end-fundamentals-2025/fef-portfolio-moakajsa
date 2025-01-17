@@ -1,3 +1,43 @@
 * {
   font-family: "Roboto Condensed", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* HEADER */
+
+body {
+  margin: 0;
+}
+
+#logo {
+  font-weight: 300;
+  font-size: 2.5rem;
+  padding-left: 10px;
+}
+
+menu {
+  padding-left: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  color: black;
+}
+
+.header-img {
+  max-width: 100%;
+}
+
+/* MAIN */
+
+/* FOOTER */
+
+footer {
+  padding-left: 10px;
 }
