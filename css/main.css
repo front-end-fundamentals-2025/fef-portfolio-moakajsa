@@ -53,6 +53,30 @@ max-width: 20%;
 float: inline-end;
 }
 
+h2{
+  padding: 10px;
+}
+
+form{
+padding: 10px;
+width: 50%;
+}
+
+#message{
+border: 1px solid black;
+box-sizing: border-box;
+}
+
+#message-text{
+  width: 100%;
+  height: 200px;
+}
+
+#submit{
+  font-size: large;
+
+}
+
 /* FOOTER */
 
 .icons{
