@@ -8,85 +8,101 @@ body {
   margin: 0;
 }
 
+header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 20px;
+}
+
 #logo {
   font-weight: 400;
   font-size: 2.5rem;
   padding-left: 10px;
+  padding-right: 10px;
   font-style: large;
+  margin: 0;
 }
 
 menu {
-  padding-left: 10px;
+  padding-left: 40px;
+  padding-right: 10px;
+  margin: 0;
 }
 
 ul {
   font-weight: 300;
   font-size: large;
   list-style: none;
-  padding: 0;
+  display: flex;
+  padding-left: 0;
+  margin: 0;
 }
 
 a {
   color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
 }
 
 .header-img {
-  max-width: 100%;
+  width: 100%;
+  aspect-ratio: 600/200;
 }
 
 /* MAIN */
 
 /* MAIN SECTION */
 
-.section-main{
+.section-main {
   font-weight: 300;
   margin-top: 30px;
 }
 
-.text-main{
+.text-main {
   width: 80%;
   float: inline-start;
 }
 
 .profile-img {
-max-width: 20%;
-float: inline-end;
+  max-width: 20%;
+  float: inline-end;
 }
 
-h2{
+h2 {
   padding: 10px;
 }
 
-form{
-padding: 10px;
-width: 50%;
+form {
+  padding: 10px;
+  width: 50%;
 }
 
-#message{
-border: 1px solid black;
-box-sizing: border-box;
+#message {
+  border: 1px solid black;
+  box-sizing: border-box;
 }
 
-#message-text{
+#message-text {
   width: 100%;
   height: 200px;
 }
 
-#submit{
+#submit {
   font-size: large;
-
 }
 
 /* FOOTER */
 
-.icons{
+.icons {
   width: 2%;
   padding: 10px;
   float: inline-end;
 }
 
-.copyright{
-float: inline-start;
+.copyright {
+  float: inline-start;
 }
 
 footer {
