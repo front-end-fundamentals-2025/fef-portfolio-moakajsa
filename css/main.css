@@ -51,9 +51,31 @@ a {
   aspect-ratio: 600/200;
 }
 
+/* header responsive */
+
+@media screen and (max-width: 600px) {
+  header,
+  ul {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  menu {
+    padding: 0;
+  }
+
+  a {
+    padding: 0px;
+  }
+
+  #logo {
+    padding-left: 0px;
+  }
+}
+
 /* MAIN */
 
-/* MAIN SECTION */
+/* MAIN SECTION*/
 
 .section-main {
   font-weight: 300;
@@ -91,6 +113,24 @@ form {
 
 #submit {
   font-size: large;
+}
+
+/* MAIN SECTION HOMEPAGE*/
+
+.works-home {
+  display: grid;
+  grid-template-areas:
+    "work work work"
+    "work work work";
+}
+
+a > figure {
+  grid-area: work;
+  margin: 0;
+}
+
+figure > img {
+  width: 100%;
 }
 
 /* FOOTER */
