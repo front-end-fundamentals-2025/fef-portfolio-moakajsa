@@ -119,19 +119,27 @@ form {
 .works-home {
   display: grid;
   grid-template-areas:
-    "work work work"
-    "work work work";
-  padding-top: 30px;
+    "work work work work"
+    "work work work work";
+  padding-top: 10px;
 }
 
 a > figure {
   grid-area: work;
   margin: 0;
+  display: flex;
+  justify-content: space-around;
 }
 
-figure > img {
-  width: 100%;
-  align-items: center;
+.work-img {
+  width: 60%;
+  padding: 20px;
+}
+
+p {
+  /* display: inline; */
+  padding-left: 50px;
+  padding-right: 100px;
 }
 
 @media screen and (max-width: 600px) {
@@ -148,21 +156,37 @@ figure > img {
   section > a {
     padding: 20px;
   }
+
+  p {
+    padding-left: 20px;
+    padding-right: 40px;
+  }
 }
 
 /* FOOTER */
 
-.icons {
-  width: 2%;
-  padding: 10px;
-  float: inline-end;
+footer {
+  display: flex;
+  margin-top: 50px;
+  border-top: 1px solid black;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .copyright {
-  float: inline-start;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
-footer {
-  margin-top: 500px;
-  border-top: 1px solid black;
+.footer-links {
+  padding: 5px;
+  display: flex;
+}
+
+.social-media {
+  width: 20px;
+}
+
+section a {
+  padding: 10px;
 }
