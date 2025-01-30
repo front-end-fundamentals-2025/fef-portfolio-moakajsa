@@ -142,7 +142,6 @@ p {
   padding-right: 100px;
 }
 
-/* BREAKPOINTS 600 PX */
 @media screen and (max-width: 600px) {
   .works-home {
     display: grid;
@@ -172,9 +171,6 @@ footer {
   border-top: 1px solid black;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
 }
 
 .copyright {
