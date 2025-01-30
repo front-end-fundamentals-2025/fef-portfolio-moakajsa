@@ -95,13 +95,19 @@ h1 {
   padding-left: 50px;
 }
 
-.works-home {
+/* .works-home {
   display: grid;
   grid-template-areas:
     "workhome descriptionhome"
     "workhome descriptionhome"
     "workhome descriptionhome";
   padding-top: 10px;
+} */
+
+.works-home {
+  display: flex;
+  padding-top: 10px;
+  align-items: center;
 }
 
 a > figure {
@@ -111,18 +117,13 @@ a > figure {
 }
 
 .work-img-home {
-  grid-area: workhome;
   max-width: 80%;
   padding: 10px;
 }
 
-.description {
-  grid-area: descriptionhome;
-}
-
-p {
-  padding-left: 50px;
-  padding-right: 100px;
+section p {
+  text-align: center;
+  margin: 50px;
 }
 
 /* HOMEPAGE RESPONSIVE */
