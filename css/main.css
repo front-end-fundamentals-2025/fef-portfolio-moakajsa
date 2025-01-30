@@ -100,7 +100,6 @@ h1 {
   grid-template-areas:
     "workhome descriptionhome"
     "workhome descriptionhome"
-    "workhome descriptionhome"
     "workhome descriptionhome";
   padding-top: 10px;
 }
@@ -113,7 +112,7 @@ a > figure {
 
 .work-img-home {
   grid-area: workhome;
-  width: 70%;
+  max-width: 80%;
   padding: 10px;
 }
 
@@ -128,7 +127,7 @@ p {
 
 /* HOMEPAGE RESPONSIVE */
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
   .works-home {
     display: flex;
     flex-direction: column;
@@ -339,8 +338,9 @@ footer {
 }
 
 .footer-links {
-  padding: 5px;
+  padding: 20px;
   display: flex;
+  flex-direction: column;
 }
 
 .social-media {
