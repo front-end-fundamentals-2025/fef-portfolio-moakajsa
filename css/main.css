@@ -166,7 +166,6 @@ p {
 }
 
 .work-section {
-  display: flex;
   align-items: center;
 }
 
@@ -174,17 +173,14 @@ p {
   display: flex;
 }
 
-.work-section-last {
-  width: 1900px;
-}
-
 .descriptionwork {
   padding: 0;
+  text-align: center;
 }
 
 .work-img {
   grid-area: workswork;
-  width: 80%;
+  max-width: 80%;
   padding: 10px;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -245,7 +241,7 @@ p {
   }
 
   .work-img {
-    width: 60%;
+    width: 70%;
     padding: 10px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -267,7 +263,7 @@ p {
 
 .works-full-img {
   display: flex;
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
 }
 
