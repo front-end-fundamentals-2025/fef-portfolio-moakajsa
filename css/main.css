@@ -2,6 +2,12 @@
   font-family: "Roboto Condensed", serif;
 }
 
+header,
+main {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
 /* HEADER */
 
 body {
@@ -25,7 +31,7 @@ header {
 }
 
 menu {
-  padding-left: 40px;
+  padding-left: 10px;
   padding-right: 10px;
   margin: 0;
 }
@@ -49,11 +55,12 @@ a {
 .header-img {
   width: 100%;
   aspect-ratio: 600/200;
+  margin-bottom: 25px;
 }
 
 /* header responsive */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   header {
     flex-direction: column;
     align-items: center;
@@ -81,6 +88,84 @@ a {
 }
 
 /* MAIN */
+
+/* HOMEPAGE */
+
+.works-home {
+  display: grid;
+  grid-template-areas: "work work work work";
+  padding-top: 10px;
+}
+
+a > figure {
+  grid-area: work;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.work-img-home {
+  width: 70%;
+  padding: 10px;
+}
+
+p {
+  padding-left: 50px;
+  padding-right: 100px;
+}
+
+/* HOMEPAGE RESPONSIVE */
+
+@media screen and (max-width: 650px) {
+  .works-home {
+    display: grid;
+    grid-template-areas:
+      "work work"
+      "work work";
+
+    padding: 20px;
+  }
+
+  section > a {
+    padding: 20px;
+  }
+
+  p {
+    padding-left: 20px;
+    padding-right: 40px;
+  }
+}
+
+/* WORKS */
+
+.works {
+  display: grid;
+  grid-template-areas:
+    "work work work"
+    "work work work";
+}
+
+.work-img {
+  width: 60%;
+  padding: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 650px) {
+  .works {
+    display: grid;
+    grid-template-areas:
+      "work work"
+      "work work";
+  }
+
+  .work-img {
+    width: 60%;
+    padding: 10px;
+  }
+}
 
 /* ABOUT*/
 
@@ -120,56 +205,6 @@ form {
 
 #submit {
   font-size: large;
-}
-
-/* HOMEPAGE */
-
-.works-home {
-  display: grid;
-  grid-template-areas:
-    "work work work work"
-    "work work work work";
-  padding-top: 10px;
-}
-
-a > figure {
-  grid-area: work;
-  margin: 0;
-  display: flex;
-  justify-content: space-around;
-}
-
-.work-img {
-  width: 60%;
-  padding: 20px;
-}
-
-p {
-  padding-left: 50px;
-  padding-right: 100px;
-}
-
-/* HOMEPAGE RESPONSIVE */
-
-@media screen and (max-width: 600px) {
-  .works-home {
-    display: grid;
-    grid-template-areas:
-      "work work"
-      "work work"
-      "work work";
-
-    padding: 20px;
-  }
-
-  section > a {
-    padding: 20px;
-  }
-
-  p {
-    padding-left: 20px;
-    padding-right: 40px;
-  }
 }
 
 /* FOOTER */
