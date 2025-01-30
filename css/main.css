@@ -82,7 +82,7 @@ a {
 
 /* MAIN */
 
-/* MAIN SECTION*/
+/* ABOUT*/
 
 .section-main {
   font-weight: 300;
@@ -91,13 +91,13 @@ a {
 
 .text-main {
   width: 80%;
-  /* float: inline-start; */
 }
 
 .profile-img {
   max-width: 20%;
-  /* float: inline-end; */
 }
+
+/* CONTACT */
 
 h2 {
   padding: 10px;
@@ -105,7 +105,7 @@ h2 {
 
 form {
   padding: 10px;
-  width: 50%;
+  width: 90%;
 }
 
 #message {
@@ -122,7 +122,7 @@ form {
   font-size: large;
 }
 
-/* MAIN SECTION HOMEPAGE*/
+/* HOMEPAGE */
 
 .works-home {
   display: grid;
@@ -145,10 +145,11 @@ a > figure {
 }
 
 p {
-  /* display: inline; */
   padding-left: 50px;
   padding-right: 100px;
 }
+
+/* HOMEPAGE RESPONSIVE */
 
 @media screen and (max-width: 600px) {
   .works-home {
