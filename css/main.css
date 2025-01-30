@@ -52,26 +52,6 @@ a {
 
 /* header responsive */
 
-/* @media screen and (max-width: 600px) {
-  header,
-  ul {
-    flex-direction: column;
-    align-items: start;
-  }
-
-  menu {
-    padding: 0;
-  }
-
-  a {
-    padding: 0px;
-  }
-
-  #logo {
-    padding-left: 0px;
-  }
-} */
-
 @media screen and (max-width: 600px) {
   header {
     flex-direction: column;
@@ -105,12 +85,12 @@ a {
 
 .text-main {
   width: 80%;
-  float: inline-start;
+  /* float: inline-start; */
 }
 
 .profile-img {
   max-width: 20%;
-  float: inline-end;
+  /* float: inline-end; */
 }
 
 h2 {
