@@ -168,11 +168,13 @@ p {
 
 footer {
   display: flex;
-  margin-top: 80px;
+  margin-top: 50px;
   border-top: 1px solid black;
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  position: absolute;
+  bottom: 0;
 }
 
 .copyright {
