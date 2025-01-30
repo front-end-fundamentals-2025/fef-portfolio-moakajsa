@@ -95,15 +95,6 @@ h1 {
   padding-left: 50px;
 }
 
-/* .works-home {
-  display: grid;
-  grid-template-areas:
-    "workhome descriptionhome"
-    "workhome descriptionhome"
-    "workhome descriptionhome";
-  padding-top: 10px;
-} */
-
 .works-home {
   display: flex;
   padding-top: 10px;
