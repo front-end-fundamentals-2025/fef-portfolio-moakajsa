@@ -28,6 +28,23 @@ header {
   padding-right: 10px;
   font-style: large;
   margin: 0;
+  animation-name: logo;
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes logo {
+  40% {
+    transform: rotate(-360deg);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  70% {
+    transform: rotate(-360deg);
+  }
 }
 
 menu {
@@ -312,6 +329,7 @@ form {
 
 #submit {
   font-size: large;
+  color: #183238;
 }
 
 /* FOOTER */
