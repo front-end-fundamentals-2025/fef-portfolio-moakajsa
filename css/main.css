@@ -29,7 +29,7 @@ header {
   font-style: large;
   margin: 0;
   animation-name: logo;
-  animation-duration: 10s;
+  animation-duration: 3s;
   animation-timing-function: ease-in-out;
 }
 
