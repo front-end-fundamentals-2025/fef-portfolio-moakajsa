@@ -13,6 +13,11 @@ main {
   color: white;
 }
 
+.dark-mode a {
+  background-color: #222222;
+  color: white;
+}
+
 /* HEADER */
 
 body {
@@ -79,6 +84,7 @@ ul {
 
 a {
   /* color: black; */
+  color: inherit;
   padding: 20px;
   text-decoration: none;
 }
